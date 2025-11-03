@@ -2,12 +2,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Press Start 2P', monospace; /* fuente hacker para toda la página */
+  background-color: #1a1a1a; /* fondo oscuro estilo hacker */
+  color: #00ff00;            /* texto verde tipo terminal */
+  margin: 0;
+  padding: 0;
+}
+
+
 .padre {
   display: flex;
+  justify-content: center;
   flex-direction: column; /* 👈 esto apila los hijos verticalmente */
   align-items: center; 
   width: 100%;
-  height: auto;
+  height: 100vh;
   background: red;
   padding: 5px;
 }
@@ -19,8 +29,38 @@
     text-align: center;
     background: blue;
     width: 50%;
-    height: 5;
+    height: 15vh;
     text-align: center;
     margin-bottom: 20px;
 
+}
+
+
+.uno h1 {
+  font-size: 1.5rem;     
+  transition: font-size 0.3s ease; 
+  cursor: pointer;
+
+}
+
+.uno h1:hover {
+  font-size: 2rem; 
+  cursor: pointer;
+       
+}
+
+
+
+
+h2 {
+  font-size: 1.5rem;       
+  transition: font-size 0.3s ease; 
+  cursor: pointer;
+
+}
+
+h2:hover {
+  font-size: 2rem;
+  cursor: pointer;
+        
 }
