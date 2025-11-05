@@ -25,3 +25,14 @@ document.addEventListener("DOMContentLoaded",()=>{
     });
 });
 
+
+//llamar el ID para regresar en aboutme a index.html
+document.addEventListener("DOMContentLoaded",()=>{
+    const divTres = document.getElementById("back");
+
+    divTres.addEventListener("click",() =>{
+        window.location.href = "index.html";
+    });
+});
+
+
