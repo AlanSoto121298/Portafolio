@@ -16,7 +16,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url('../imgs/about.jpg');
+    background-image: url('../imgs/about.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@ body {
 .div-centro{
     width: 50%;
     height: auto;
+    margin-bottom: 20px;
     
 }
 
