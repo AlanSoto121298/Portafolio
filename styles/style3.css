@@ -8,6 +8,23 @@ body {
     padding: 0;
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-image: url('../imgs/codigo.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#btn-projects {
+    background: green;
+    cursor: pointer;
+    color: white;
+}
+
 
 .padre {
     display: flex;
@@ -20,15 +37,57 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 5px;
-  
+    padding: 10px;
+
 }
 
-.div-centro{
-    width: 50%;
-    height: auto;
-     
-    
+.div-centro {
+    width: 100%;
+    height: 80vh;
+    border: 3px solid green;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
 }
 
 
+.proyecto1 {
+    height: 200px;
+    background-image: url('../imgs/indk.png');
+    background-size: 70%;
+    /* 🔹 imagen más pequeña */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.proyecto2 {
+    height: 200px;
+    background-image: url('../imgs/quiren.png');
+    background-size: 70%;
+    /* ajusta la imagen al div */
+    background-position: center;
+    /* centra la imagen */
+    background-repeat: no-repeat;
+    /* evita que se repita */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+.proyecto3 {
+    height: 200px;
+    background-image: url('../imgs/tromluc.png');
+    background-size: 70%;
+    /* ajusta la imagen al div */
+    background-position: center;
+    /* centra la imagen */
+    background-repeat: no-repeat;
+    /* evita que se repita */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}

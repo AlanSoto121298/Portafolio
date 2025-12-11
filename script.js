@@ -29,12 +29,21 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 // BOTONES PARA REGRESAR A INDEX HTML
 document.addEventListener("DOMContentLoaded",()=>{
-    const divTres = document.getElementById("back");
+    const boton = document.getElementById("btn-aboutme");
 
-    divTres.addEventListener("click",() =>{
+    boton.addEventListener("click",() =>{
         window.location.href = "index.html";
     });
 });
+
+document.addEventListener("DOMContentLoaded",() =>{
+    const botonProjects = document.getElementById("btn-projects");
+    
+    botonProjects.addEventListener("click",() => {
+       window.location.href = "index.html";
+    })
+})
+
 
 
 //Una alerta nomas cuando den click al nombre:)
