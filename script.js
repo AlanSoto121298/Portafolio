@@ -1,4 +1,4 @@
-//llamar el ID uno para redireccionamiento a about me 
+//redireccionamientos de los DIVS a los demas index.
 document.addEventListener("DOMContentLoaded", () => {
     const divUno = document.getElementById("aboutme");
 
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-//llamar el ID uno para redireccionamiento a Projects
+
 document.addEventListener("DOMContentLoaded", () => {
     const divDos = document.getElementById("projects");
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-//llamar el ID para el formulario
+
 document.addEventListener("DOMContentLoaded",()=>{
     const divTres = document.getElementById("contact");
 
@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 
-//llamar el ID para regresar en aboutme a index.html
+
+// BOTONES PARA REGRESAR A INDEX HTML
 document.addEventListener("DOMContentLoaded",()=>{
     const divTres = document.getElementById("back");
 
@@ -36,6 +37,14 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 
+//Una alerta nomas cuando den click al nombre:)
+nombre.addEventListener("click",() =>{
+    alert("Hola, es un gusto:)")
+})
+
+
+ //CODIGO PARA CARRUSEL ( AUN POR SABER SI APLICARLO O NO )
+/* 
 let index = 0;
 const slides = document.querySelectorAll('.slide');
 
@@ -45,3 +54,5 @@ setInterval(() => {
   slides[index].classList.add('active');
   document.querySelector('.slides').style.transform = `translateX(-${index * 100}%)`;
 }, 3000);
+ */
+
