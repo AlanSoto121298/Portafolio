@@ -36,32 +36,15 @@ document.addEventListener("DOMContentLoaded",()=>{
     });
 });
 
-document.addEventListener("DOMContentLoaded",() =>{
-    const botonProjects = document.getElementById("btn-projects");
-    
-    botonProjects.addEventListener("click",() => {
-       window.location.href = "index.html";
-    })
-})
 
 
 
 //Una alerta nomas cuando den click al nombre:)
+
 nombre.addEventListener("click",() =>{
     alert("Hola, es un gusto:)")
 })
 
 
- //CODIGO PARA CARRUSEL ( AUN POR SABER SI APLICARLO O NO )
-/* 
-let index = 0;
-const slides = document.querySelectorAll('.slide');
 
-setInterval(() => {
-  slides[index].classList.remove('active');
-  index = (index + 1) % slides.length;
-  slides[index].classList.add('active');
-  document.querySelector('.slides').style.transform = `translateX(-${index * 100}%)`;
-}, 3000);
- */
 
