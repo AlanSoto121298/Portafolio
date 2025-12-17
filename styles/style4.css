@@ -37,22 +37,38 @@ header {
     padding: 5px;
 
 }
-label{
-    color: white;
-}
-input,
-textarea{
-    border-color: green;
-    outline: none;
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    border: 2px solid red;
+   
 }
 
-#formContact{
-    display: flex;
+.contacto ul {
+
+     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 50%;
-    height: auto;
-    padding: 15px;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+   
+}
+
+.contacto li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: green;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
 }
 
 
@@ -67,3 +83,40 @@ textarea{
     background: green;
     color: white;
 }
+
+/*Para el icono de Github*/
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;   /* espacio entre icono y texto */
+    text-decoration: none;
+    color: #007bff;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 20px;   /* tamaño del icono */
+    height: 20px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espacio entre icono y texto */
+    text-decoration: none;
+    color: #007bff;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-link i {
+    font-size: 20px; /* tamaño del icono */
+}
+
+
