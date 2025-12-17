@@ -19,12 +19,6 @@ header {
     background-attachment: fixed;
 }
 
-#btn-projects {
-    background: green;
-    cursor: pointer;
-    color: white;
-}
-
 
 .padre {
     display: flex;
@@ -86,4 +80,17 @@ header {
     border-radius: 10px;
     border: 1px solid #ccc;
     cursor: pointer;
+}
+
+
+#btn-projects {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+
+#btn-projects:hover{
+    background: green;
+    color: white;
 }

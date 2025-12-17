@@ -39,11 +39,6 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 
-//Una alerta nomas cuando den click al nombre:)
-
-nombre.addEventListener("click",() =>{
-    alert("Hola, es un gusto:)")
-})
 
 
 
