@@ -25,7 +25,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 93vh;
     background-image: url('../imgs/codigo.webp');
     background-size: cover;
     background-position: center center;
@@ -47,6 +47,7 @@ header {
 }
 
 
+
 .proyecto1 {
     height: 200px;
     background-image: url('../imgs/indk.png');
@@ -54,9 +55,32 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    border: 1px solid green;
+    border: 4px solid transparent;
     cursor: pointer;
+    background-clip: padding-box;
+    position: relative;
 }
+
+.proyecto1::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    bottom: -4px;
+    right: -4px;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(90deg, green, lime, green);
+    background-size: 200% 100%;
+    animation: animarBorde 3s linear infinite;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
+
 
 .proyecto2 {
     height: 200px;
@@ -65,9 +89,28 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-      border: 1px solid green;
+    border: 4px solid transparent;
     cursor: pointer;
+    background-clip: padding-box;
+    position: relative;
 }
+
+.proyecto2::after {
+    content: '';
+    position: absolute;
+    top: -4px; left: -4px; bottom: -4px; right: -4px;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(90deg, green, lime, green);
+    background-size: 200% 100%;
+    animation: animarBorde 3s linear infinite;
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
 
 
 .proyecto3 {
@@ -77,9 +120,28 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-     border: 1px solid green;
+   border: 4px solid transparent;
     cursor: pointer;
+    background-clip: padding-box;
+    position: relative;
 }
+
+.proyecto3::after {
+    content: '';
+    position: absolute;
+    top: -4px; left: -4px; bottom: -4px; right: -4px;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(90deg, green, lime, green);
+    background-size: 200% 100%;
+    animation: animarBorde 3s linear infinite;
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
 
 
 #btn-projects {
@@ -89,7 +151,17 @@ header {
 }
 
 
-#btn-projects:hover{
+#btn-projects:hover {
     background: green;
     color: white;
+}
+
+@keyframes animarBorde {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
 }
