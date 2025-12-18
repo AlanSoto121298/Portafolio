@@ -1,15 +1,16 @@
+//CAMBIAMOS EL TITULO COMO TIPO SALUDO Y REGRESAMOS AL MISMO CON SET TIME OUT
+
 const nombreElemento = document.querySelector("#nombre");
 const textoOriginal = nombreElemento.textContent;
 
-nombreElemento.addEventListener("click", () => {
+nombreElemento.addEventListener("mouseenter", () => {
     nombreElemento.textContent = "Bienvenido, soy Alan:)";
 
-    setTimeout(() =>{
-         nombreElemento.textContent = textoOriginal;
-    },5000)
+    // Después de 5 segundos, vuelve al texto original
+    setTimeout(() => {
+        nombreElemento.textContent = textoOriginal;
+    }, 5000);
 });
-
-
 
 
 
