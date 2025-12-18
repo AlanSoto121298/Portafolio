@@ -6,6 +6,13 @@ body {
     font-family: 'Press Start 2P', monospace;
     margin: 0;
     padding: 0;
+    background: linear-gradient(
+        135deg,
+        #000000 0%,     /* negro intenso */
+        #000000 80%,    /* mayor parte negro */
+        #002200 90%,    /* verde muy oscuro */
+        #004400 100%    /* verde oscuro más visible al final */
+    );
 }
 
 header {
@@ -13,58 +20,51 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 10px;
-    background-image: url('../imgs/about.webp');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
 }
 
 
 
-#main-principal{
+#main-principal {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 92vh;
-    background-image: url('../imgs/about.webp');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 5px;
 
 }
 
-.contacto{
+.contacto {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:auto;
-   
-   
+    height: auto;
+
+
 }
 
 .contacto ul {
 
-     display: flex;
+    display: flex;
     flex-direction: column;
     gap: 30px;
     list-style: none;
     padding: 0;
-   
+
 }
 
 .contacto li {
     margin: 10px 0;
     font-size: 1.1rem;
+      
+
 }
 
 .contacto a {
     text-decoration: none;
-    color: green;
+       color: white;
+
 }
 
 .contacto a:hover {
@@ -72,14 +72,14 @@ header {
 }
 
 
-#btn-contact{
+#btn-contact {
     cursor: pointer;
     color: rgb(0, 0, 0);
     background: white;
 }
 
 
-#btn-contact:hover{
+#btn-contact:hover {
     background: green;
     color: white;
 }
@@ -89,7 +89,8 @@ header {
 .contact-link {
     display: flex;
     align-items: center;
-    gap: 8px;   /* espacio entre icono y texto */
+    gap: 8px;
+    /* espacio entre icono y texto */
     text-decoration: none;
     color: #007bff;
 }
@@ -99,14 +100,16 @@ header {
 }
 
 .icon {
-    width: 20px;   /* tamaño del icono */
+    width: 20px;
+    /* tamaño del icono */
     height: 20px;
 }
 
 .contact-link {
     display: flex;
     align-items: center;
-    gap: 8px; /* espacio entre icono y texto */
+    gap: 8px;
+    /* espacio entre icono y texto */
     text-decoration: none;
     color: #007bff;
 }
@@ -116,7 +119,6 @@ header {
 }
 
 .contact-link i {
-    font-size: 20px; /* tamaño del icono */
+    font-size: 20px;
+    /* tamaño del icono */
 }
-
-
