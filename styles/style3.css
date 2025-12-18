@@ -57,7 +57,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    border: 4px solid transparent;
+    border: 1px solid transparent;
     cursor: pointer;
     background-clip: padding-box;
     position: relative;
