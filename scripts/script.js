@@ -1,3 +1,19 @@
+const nombreElemento = document.querySelector("#nombre");
+const textoOriginal = nombreElemento.textContent;
+
+nombreElemento.addEventListener("click", () => {
+    nombreElemento.textContent = "Bienvenido, soy Alan:)";
+
+    setTimeout(() =>{
+         nombreElemento.textContent = textoOriginal;
+    },5000)
+});
+
+
+
+
+
+
 //redireccionamientos de los DIVS a los demas index.
 document.addEventListener("DOMContentLoaded", () => {
     const divUno = document.getElementById("aboutme");
