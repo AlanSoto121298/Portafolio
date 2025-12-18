@@ -40,6 +40,7 @@ header {
     justify-content: center;
     align-items: center;
     height: auto;
+    
 
 
 }
@@ -56,7 +57,8 @@ header {
 
 .contacto li {
     margin: 10px 0;
-    font-size: 1.1rem;
+    font-size:2rem;
+    text-align: center;
       
 
 }
