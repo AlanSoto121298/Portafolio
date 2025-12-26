@@ -1,7 +1,36 @@
-body{
-    background: red;
+* {
+    box-sizing: border-box;
 }
 
-h1{
-    color: blue;
+body {
+    font-family: 'Press Start 2P', monospace;
+    margin: 0;
+    padding: 0;
+     background: linear-gradient(135deg,
+            #000000 0%,
+            #000000 80%,
+            #002200 90%,
+            #004400 100%
+        );
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+     align-items: center;  
+    padding: 10px;
+   
+}
+
+#btn-inndaka {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+
+#btn-inndaka:hover {
+    background: green;
+    color: white;
 }
