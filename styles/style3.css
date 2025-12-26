@@ -23,12 +23,15 @@ header {
 }
 
 header nav a {
-    text-decoration: none; /* quita la línea de abajo */
-    margin-right: 20px;    /* espacio entre los enlaces */
-    color: #ffffff;           /* color de texto, opcional */
-    font-weight: bold;
+    text-decoration: none; 
+    margin-right: 20px;    
+    color: #ffffff;          
+   
 }
 
+header nav a:hover{
+    color: green;
+}
 
 .padre {
     display: flex;
