@@ -6,21 +6,43 @@ body {
     font-family: 'Press Start 2P', monospace;
     margin: 0;
     padding: 0;
-     background: linear-gradient(135deg,
+    background: linear-gradient(135deg,
             #000000 0%,
             #000000 80%,
             #002200 90%,
-            #004400 100%
-        );
+            #004400 100%);
 }
 
 
 header {
     display: flex;
     justify-content: flex-end;
-     align-items: center;  
+    align-items: center;
     padding: 10px;
+
+}
+
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    
+    
+
+}
+
+.div-centro {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
+
 }
 
 #btn-inndaka {
@@ -35,6 +57,8 @@ header {
     color: white;
 }
 
-#texto{
+#texto {
     color: white;
+    font-size: 23px;
+     text-align: justify;
 }
