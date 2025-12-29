@@ -27,14 +27,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; */
     padding: 5px;
-    border: 3px solid red;
+    
 }
 
 .div-centro {
     width: 50%;
     height: auto;
     margin-bottom: 20px;
-    border: 3px solid yellow
+   
 }
 
 .div-centro p {
@@ -51,16 +51,16 @@ body {
 
 .div-foto {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    justify-content: left;
+    align-items: left;
+    width:auto;
     height: auto;
     margin-bottom: 20px;
-    border: 3px solid BLUE
+   
 }
 
 .div-foto img {
-    width: 200px;
+    width: 250px;
 }
 
 
