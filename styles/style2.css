@@ -6,12 +6,11 @@ body {
     font-family: 'Press Start 2P', monospace;
     margin: 0;
     padding: 0;
-     background: linear-gradient(135deg,
+    background: linear-gradient(135deg,
             #000000 0%,
             #000000 80%,
             #002200 90%,
-            #004400 100%
-        );
+            #004400 100%);
 }
 
 
@@ -31,49 +30,50 @@ body {
     border: 3px solid red;
 }
 
-.div-centro{
+.div-centro {
     width: 50%;
     height: auto;
     margin-bottom: 20px;
-     border: 3px solid yellow
-    
+    border: 3px solid yellow
 }
 
 .div-centro p {
-  font-family: 'Press Start 2P', monospace;
-  color: white;
-  text-align: justify;
-  font-size: 10px;          /* más pequeño */
-  line-height: 2;           /* más separación vertical */
-  letter-spacing: 1px;      /* puedes probar con 0 o 0.5 */
-  word-spacing: normal;
-  width: 80%;
-  margin: 0 auto;
+    font-family: 'Press Start 2P', monospace;
+    color: white;
+    text-align: justify;
+    font-size: 10px;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.div-foto{
-      width: 50%;
+.div-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     height: auto;
     margin-bottom: 20px;
-     border: 3px solid BLUE
+    border: 3px solid BLUE
 }
 
-.div-foto img{
-    width: 30px;
+.div-foto img {
+    width: 200px;
 }
 
 
 
-.div-btn{
+.div-btn {
     width: 50%;
     height: auto;
     display: flex;
     justify-content: center;
 }
 
-#btn-aboutme:hover{
+#btn-aboutme:hover {
     background: green;
     cursor: pointer;
     color: white;
 }
-
