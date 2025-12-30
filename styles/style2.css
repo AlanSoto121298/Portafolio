@@ -72,6 +72,10 @@ body {
     justify-content: center;
 }
 
+#btn-aboutme{
+    width: 15%;
+}
+
 #btn-aboutme:hover {
     background: green;
     cursor: pointer;
