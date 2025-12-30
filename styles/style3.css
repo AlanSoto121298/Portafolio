@@ -61,9 +61,9 @@ header nav a:hover{
 
 
 
-.proyecto1 {
+/* .proyecto1 {
     height: 200px;
-    background-image: url('../imgs/indk.png');
+  background-image: url('../imgs/indk.png'); 
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,8 +73,21 @@ header nav a:hover{
     background-clip: padding-box;
     position: relative;
 }
+ */
 
-.proyecto1::after {
+.proyecto1 article{
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+    interpolate-size: allow-keywords;
+    padding: 0 10px;
+
+}
+
+
+
+/* .proyecto1::after {
     content: '';
     position: absolute;
     top: -4px;
@@ -92,8 +105,11 @@ header nav a:hover{
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
 }
+ */
 
-
+.proyecto1 article:hover{
+    height: auto;
+}
 
 .proyecto2 {
     height: 200px;
