@@ -6,30 +6,29 @@ body {
     font-family: 'Press Start 2P', monospace;
     margin: 0;
     padding: 0;
-     background: linear-gradient(135deg,
+    background: linear-gradient(135deg,
             #000000 0%,
             #000000 80%,
             #002200 90%,
-            #004400 100%
-        );
+            #004400 100%);
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-     align-items: center;  
+    align-items: center;
     padding: 10px;
-   
+
 }
 
 header nav a {
-    text-decoration: none; 
-    margin-right: 20px;    
-    color: #ffffff;          
-   
+    text-decoration: none;
+    margin-right: 20px;
+    color: #ffffff;
+
 }
 
-header nav a:hover{
+header nav a:hover {
     color: green;
 }
 
@@ -56,30 +55,30 @@ header nav a:hover{
 
 
 
- .proyecto1,
- .proyecto2,
- .proyecto3{
+.proyecto1,
+.proyecto2,
+.proyecto3 {
     height: auto;
     width: auto;
-    cursor:pointer;
-    
- }
+    cursor: pointer;
 
- .proyecto1 img,
- .proyecto2 img,
-.proyecto3 img{
+}
+
+.proyecto1 img,
+.proyecto2 img,
+.proyecto3 img {
     width: 100%;
     display: block;
     border: 2px solid rgb(0, 231, 19);
     border-radius: 10px;
 
- }
+}
 
 
 
 .proyecto1 article,
 .proyecto2 article,
-.proyecto3 article{
+.proyecto3 article {
     background: #000000;
     height: 0;
     overflow: hidden;
@@ -91,21 +90,21 @@ header nav a:hover{
 
 #parrafo,
 #parrafo2,
-#parrafo3{
-    color:white;
+#parrafo3 {
+    color: white;
     text-align: justify;
 }
 
 #title-proj1,
 #title-proj2,
-#title-proj3{
-     color:white;
+#title-proj3 {
+    color: white;
     text-align: center;
 }
 
 .proyecto1:hover article,
 .proyecto2:hover article,
-.proyecto3:hover article{
+.proyecto3:hover article {
     height: auto;
 }
 
@@ -126,5 +125,3 @@ header nav a:hover{
     background: green;
     color: white;
 }
-
-
