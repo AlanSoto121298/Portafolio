@@ -79,7 +79,7 @@ header nav a:hover{
     height: auto;
     width: auto;
     cursor:pointer;
-    border: 5px solid rgb(0, 231, 19);
+    border: 2px solid rgb(0, 231, 19);
     
     
  }
@@ -101,9 +101,14 @@ header nav a:hover{
 
 }
 
-#parrafo,
-#title-proj1{
+#parrafo{
     color:white;
+    text-align: justify;
+}
+
+#title-proj1{
+     color:white;
+    text-align: center;
 }
 
 .proyecto1:hover article{
