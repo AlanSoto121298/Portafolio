@@ -80,14 +80,13 @@ header nav a:hover{
     width: auto;
     cursor:pointer;
     
-    
-    
  }
 
  .proyecto1 img{
     width: 100%;
     display: block;
     border: 2px solid rgb(0, 231, 19);
+    border-radius: 10px;
 
  }
 
@@ -119,87 +118,6 @@ header nav a:hover{
 
 
 
-/* 
-.proyecto1::after {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    bottom: -4px;
-    right: -4px;
-    border-radius: 5px;
-    padding: 4px;
-    background: linear-gradient(90deg, green, lime, green);
-    background-size: 200% 100%;
-    animation: animarBorde 3s linear infinite;
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-}
-
- */
-
-.proyecto2 {
-    height: 200px;
-    background-image: url('../imgs/quiren.png');
-    background-size: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-     border: 1px solid transparent;
-    cursor: pointer;
-    background-clip: padding-box;
-    position: relative;
-}
-
-.proyecto2::after {
-    content: '';
-    position: absolute;
-    top: -4px; left: -4px; bottom: -4px; right: -4px;
-    border-radius: 5px;
-    padding: 4px;
-    background: linear-gradient(90deg, green, lime, green);
-    background-size: 200% 100%;
-    animation: animarBorde 3s linear infinite;
-    -webkit-mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-}
-
-
-
-.proyecto3 {
-    height: 200px;
-    background-image: url('../imgs/tromluc.png');
-    background-size: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    cursor: pointer;
-    background-clip: padding-box;
-    position: relative;
-}
-
-.proyecto3::after {
-    content: '';
-    position: absolute;
-    top: -4px; left: -4px; bottom: -4px; right: -4px;
-    border-radius: 5px;
-    padding: 4px;
-    background: linear-gradient(90deg, green, lime, green);
-    background-size: 200% 100%;
-    animation: animarBorde 3s linear infinite;
-    -webkit-mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-}
 
 
 
@@ -214,16 +132,6 @@ header nav a:hover{
 #btn-projects:hover {
     background: green;
     color: white;
-}
-
-@keyframes animarBorde {
-    0% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 200% 0;
-    }
 }
 
 
