@@ -4,12 +4,12 @@ const nombreElemento = document.querySelector("#nombre");
 const textoOriginal = nombreElemento.textContent;
 
 nombreElemento.addEventListener("mouseenter", () => {
-    nombreElemento.textContent = "Bienvenido, soy Alan:)";
+    nombreElemento.textContent = "BIENVENIDO!!";
 
     // Después de 5 segundos, vuelve al texto original
     setTimeout(() => {
         nombreElemento.textContent = textoOriginal;
-    }, 5000);
+    }, 3000);
 });
 
 
