@@ -69,7 +69,7 @@ header nav a:hover {
 .proyecto3 img {
     width: 100%;
     display: block;
-    border: 2px solid rgb(0, 231, 19);
+/*     border: 2px solid rgb(0, 231, 19); */
     border-radius: 10px;
 
 }
