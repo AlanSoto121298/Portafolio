@@ -101,4 +101,19 @@ h2:hover {
 
 @media (max-width: 575.98px){
 
+    .padre{
+        height: 100dvh;
+        
+    }
+
+    .uno h1 {
+    font-size: 40px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 25px;
+}
+    
 }
