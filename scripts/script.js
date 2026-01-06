@@ -1,28 +1,42 @@
 //CAMBIAR FONDO 
- const fondos = [
-    'linear-gradient(135deg, #000000 0%, #000000 80%, #002200 90%, #004400 100%)',
-    'linear-gradient(135deg, #ff0000 0%, #ff5500 50%, #ffaa00 100%)',
-    'linear-gradient(135deg, #000044 0%, #004466 50%, #00aaaa 100%)',
-    'linear-gradient(135deg, #222222 0%, #555555 50%, #888888 100%)'
-  ];
 
-  let indice = 0; // empieza con el primer fondo
+const boton = document.getElementById('cambiarFondo');
 
-  const boton = document.getElementById('cambiarFondo');
+// Guardamos los títulos
+const h1s = document.querySelectorAll('h1');
+const h2s = document.querySelectorAll('h2');
 
-  boton.addEventListener('click', () => {
-    // cambiar el índice al siguiente fondo
-    indice++;
-    if (indice >= fondos.length) {
-      indice = 0; // volver al primero si llegamos al final
+// Guardamos los colores originales de los títulos
+const coloresOriginalesH1 = Array.from(h1s).map(h1 => getComputedStyle(h1).color);
+const coloresOriginalesH2 = Array.from(h2s).map(h2 => getComputedStyle(h2).color);
+
+// Guardamos el fondo original del body (tu gradiente)
+const fondoOriginal = getComputedStyle(document.body).backgroundImage;
+
+// Estado actual
+let fondoBlanco = false;
+
+boton.addEventListener('click', () => {
+    if (!fondoBlanco) {
+        // Cambiar fondo a blanco
+        document.body.style.background = "#ffffff";
+
+        // Cambiar solo títulos a negro
+        h1s.forEach(h1 => h1.style.color = "#000000");
+        h2s.forEach(h2 => h2.style.color = "#000000");
+
+        fondoBlanco = true;
+    } else {
+        // Regresar fondo original
+        document.body.style.background = fondoOriginal;
+
+        // Restaurar colores originales de títulos
+        h1s.forEach((h1, i) => h1.style.color = coloresOriginalesH1[i]);
+        h2s.forEach((h2, i) => h2.style.color = coloresOriginalesH2[i]);
+
+        fondoBlanco = false;
     }
-
-    // aplicar el fondo al body
-    document.body.style.background = fondos[indice];
-  });
-
-
-
+});
 //CAMBIAMOS EL TITULO COMO TIPO SALUDO Y REGRESAMOS AL MISMO CON SET TIME OUT
 
 const nombreElemento = document.querySelector("#nombre");
@@ -59,10 +73,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded", () => {
     const divTres = document.getElementById("contact");
 
-    divTres.addEventListener("click",() =>{
+    divTres.addEventListener("click", () => {
         window.location.href = "contact.html";
     });
 });
