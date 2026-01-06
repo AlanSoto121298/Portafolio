@@ -14,7 +14,7 @@ body {
         );
 }
 
-header{
+/* header{
     display: flex;
     justify-content: flex-end;
     padding: 3x;
@@ -30,7 +30,7 @@ header{
   cursor: pointer;
   
   transition: transform 0.2s;
-}
+} */
 
 
 

@@ -1,4 +1,5 @@
 
+
 //CAMBIAMOS EL TITULO COMO TIPO SALUDO Y REGRESAMOS AL MISMO CON SET TIME OUT
 
 const nombreElemento = document.querySelector("#nombre");
