@@ -23,15 +23,15 @@ body {
 
 #cambiarFondo {
     background: black;
-  font-size: 25px;       /* emoji grande y visible */
+  font-size: 25px;       
   border: none;
-  border-radius: 50%;    /* forma circular */
+  border-radius: 50%;   
   padding: 10px;
   cursor: pointer;
   
   transition: transform 0.2s;
-} */
-
+}
+ */
 
 
 
