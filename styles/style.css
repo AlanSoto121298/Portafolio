@@ -22,8 +22,8 @@ header{
 }
 
 #cambiarFondo {
-  font-size: 24px;       /* emoji grande y visible */
-  background: white;      /* fondo del botón */
+  font-size: 25px;       /* emoji grande y visible */
+  background: black;      /* fondo del botón */
   border: none;
   border-radius: 50%;    /* forma circular */
   padding: 10px;
@@ -32,9 +32,6 @@ header{
   transition: transform 0.2s;
 }
 
-#cambiarFondo:hover {
-  transform: scale(1.2); /* efecto divertido al pasar el mouse */
-}
 
 
 
