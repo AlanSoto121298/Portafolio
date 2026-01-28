@@ -81,3 +81,30 @@ body {
     cursor: pointer;
     color: white;
 }
+
+/*MEDIA QUERY PARA TABLET */
+
+@media (max-width: 768px) and (max-width: 991.98px){
+
+}
+
+
+/*MEDIA QUERY PARA CELULAR*/
+@media (max-width: 575.98px){
+.div-centro {
+    width: 100%;
+    height: auto;
+   
+}
+    .div-foto img {
+    width: 110px;
+}
+
+.div-centro p{
+    font-size: 11px;
+}
+
+#btn-aboutme{
+    width: 40%;
+}
+}
