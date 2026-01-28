@@ -125,3 +125,32 @@ header nav a:hover {
     background: green;
     color: white;
 }
+
+
+/*MEDIA QUERY PARA TABLET */
+
+@media (max-width: 768px) and (max-width: 991.98px){
+
+}
+
+/*MEDIA QUERY PARA CELULAR */
+@media (max-width: 575.98px){
+
+    .padre{
+        height: 100vh;
+    }
+    
+  .div-centro{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  #btn-projects{
+    width: 20%;
+  }
+}
